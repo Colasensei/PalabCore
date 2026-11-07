@@ -1,8 +1,18 @@
 {
   "name": "palab-core",
   "version": "0.1.0",
-  "description": "Palab rhythm game core engine (judgment, scoring, timing, SS field)",
+  "description": "Palab rhythm game core algorithms: judgment engine, scoring, chart generation, osu!/malody parsing, Sound Space field",
   "license": "MIT",
   "type": "module",
-  "files": ["src"]
+  "main": "src/index.ts",
+  "files": ["src"],
+  "keywords": ["rhythm-game", "judgment", "chart", "osu", "malody", "sound-space"],
+  "peerDependencies": {
+    "jszip": "^3.10.1",
+    "meyda": "^5.6.3",
+    "web-audio-beat-detector": "^8.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
 }

@@ -1,13 +1,13 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Note, GameConfig, NoteResult, TimingWindows, GameResults,
-} from '@/types';
+} from '../types';
 import {
   judgeNote, judgeHoldRelease, shouldAutoEndHold, isNoteMissed,
   calculateResults, getNoteScore, getJudgmentMultiplier,
   audioManager,
-} from '@/utils';
-import { getDevOverride } from '@/utils/devOverrides';
+} from '../utils';
+import { getDevOverride } from '../utils/devOverrides';
 
 export interface GameEngineState {
   notes: Note[];

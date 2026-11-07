@@ -1,6 +1,6 @@
 // ============ 游戏配置 ============
 
-import { getDevOverride } from '@/utils/devOverrides';
+import { getDevOverride } from '../utils/devOverrides';
 
 export type TrackCount = 2 | 4 | 6 | 8;
 export type TimeSignature = '2/4' | '3/4' | '4/4' | '6/8';

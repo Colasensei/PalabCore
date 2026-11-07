@@ -1,4 +1,4 @@
-import { Note, NoteResult, Judgment, JudgmentType, GameResults, RatingType, TimingWindows, constantToDifficulty } from '@/types';
+import { Note, NoteResult, Judgment, JudgmentType, GameResults, RatingType, TimingWindows, constantToDifficulty } from '../types';
 import { getDevOverride } from './devOverrides';
 
 /**
