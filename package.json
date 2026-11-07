@@ -1,0 +1,8 @@
+{
+  "name": "palab-core",
+  "version": "0.1.0",
+  "description": "Palab rhythm game core engine (judgment, scoring, timing, SS field)",
+  "license": "MIT",
+  "type": "module",
+  "files": ["src"]
+}
