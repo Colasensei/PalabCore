@@ -75,7 +75,7 @@ export interface GameConfig {
   enableHolds?: boolean;
   /** 变速段（[start,end] 内用该 BPM）。只影响编辑器的节拍网格与对齐，
    *  游玩照旧按时间戳走，所以没有这个字段的旧谱面行为完全不变 */
-  bpmChanges?: import('@/utils/bpmMap').BpmChange[];
+  bpmChanges?: import('../utils/bpmMap').BpmChange[];
   /** 拍 0 所在的音频时刻（ms）；0/未定义 = 拍 0 就是音频起点 */
   beatOrigin?: number;
   /** 脑裂段（部分轨道反转）：编辑器/自动生成产生，游玩时视觉反转 */
@@ -382,4 +382,5 @@ export interface AccountInfo {
   /** base64 data URL (圆形裁切后) */
   avatarUrl: string | null;
 }
+
 
